@@ -1,0 +1,7 @@
+# used Xampp 
+# File location, xampp -> htdocs -> php -> Demo_Facebook
+# Create a database: your database name (demo_Facebook)
+# Create a table : your table table name (fb_user) and
+  table row name firstname, lastname, phnnumber, password1, password1, dob.
+# Now it's ready for you. Use it.
+Thanks.

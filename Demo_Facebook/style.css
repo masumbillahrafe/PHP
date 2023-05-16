@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f2f6;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+}
+
+.main_div {
+  /* border: 2px solid; */
+  border-radius: 10px;
+  box-shadow: 0 0 5px 0 #1c1e21;
+  padding: 10px;
+}
+p {
+  line-height: 0;
+}
+form {
+  padding: 10px;
+}
+#fname,
+#lname,
+#num,
+#pas_1,
+#pas_2,
+#bdaymonth {
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #f5f6f7;
+  border: 1px solid #dddfe2;
+  color: #1c1e21;
+  /* font-size: 15px; */
+  border-radius: 10px;
+}
+#num,
+#pas_1,
+#pas_2,
+#bdaymonth {
+  width: 100%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+button {
+  padding: 5px 20px;
+  text-transform: uppercase;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: #00a400;
+  color: #fff;
+}
+
+.noti-1 {
+  color: red;
+}
+.image {
+  max-width: 80%;
+}
+.login {
+  width: 100vw;
+  height: 100vh;
+}
+.login_div {
+  width: 80%;
+}
+.login_div button {
+  margin-top: 20px;
+  margin-left: 30%;
+  padding: 10px 50px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
